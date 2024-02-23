@@ -1,0 +1,210 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    outline: 0px;
+    box-sizing: border-box;
+}
+body
+{
+   /* display: block; */
+    margin: 3rem; 
+    
+}
+
+.Container
+{
+ display: grid;
+ grid-template-columns: 300px auto;
+  max-width: 1000px;
+  border: 2px solid silver;
+  margin: auto;
+  padding: 20px;
+  column-gap: 20px;
+  background-color: silver;
+ 
+}
+.Left-Section{
+  background-color: black;
+  color: blanchedalmond; 
+  
+}
+.Profile-Section{
+    
+    background-color: skyblue;
+    font-size: 20px;
+    color: black;
+  
+
+}
+.Profile-Info
+{
+
+text-align: center;
+
+
+}
+.Mi-Img
+{
+  width: 200px;
+  height: 200px;
+    border-radius: 20px;
+    margin: 10px;
+    border-style: ridge;
+    border-color:skyblue;
+   
+}
+.Profile-Icons
+{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    
+}
+.Profile-Icons a
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: black;
+    
+}
+.Contact-Section
+{
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.contact
+{
+    padding-bottom: 5px;
+    border-bottom: 2px solid white;
+}
+.contact-list li
+{
+    list-style: none;
+    padding: 5px;
+}
+.Skills-Section
+{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.skills-heading
+{
+   border-bottom: 2px solid white;
+   padding-bottom: 3px;
+}
+.Skills-ul
+{
+    padding-top: 10px;
+}
+.Skills-list li
+{
+    padding: 20px;
+    list-style: none;
+    border-bottom: 7px solid skyblue;
+    border-radius: 50px;
+}
+
+.Certification-Section
+{
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.Certification-Heading
+{
+    border-bottom: 3px solid silver;
+    padding-bottom: 3px;
+    color: skyblue;
+}
+
+.Certification-list
+{
+    padding: 30px;
+    font-size: 19px;
+     text-align: left;
+     
+}
+.Certification-list li
+{
+    padding: 10px;
+}
+
+
+.Right-Section
+{
+background-color: palevioletred;
+color: black;
+}
+
+.Objective-Section
+{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.Objective-Heading
+{
+    border-bottom: 3px solid silver;
+    padding-bottom: 3px;
+    color: skyblue;
+    
+}
+.Objective-Details
+{
+    padding: 10px;
+    text-align: justify;
+}
+
+.Project-Section
+{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+    
+}
+.Project-Heading
+{
+    border-bottom: 3px solid silver;
+    padding-bottom: 3px;
+    color: skyblue;
+    
+}
+.Project-list
+{
+    padding: 30px;
+    
+}
+.Project-Name
+{
+ padding: 3px;
+}
+
+.Project-Stack
+{
+    font-size: 22px;
+    
+}
+.Project-p
+{
+    color: rgba(39, 38, 38, 0.918);
+    font-weight: bold;
+}
+.Education-Section
+{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;  
+}
+.Education-Heading
+{
+    border-bottom: 3px solid silver;
+    padding-bottom: 3px;
+    color: skyblue;   
+}
+
